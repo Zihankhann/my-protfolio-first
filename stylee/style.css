@@ -3,7 +3,7 @@ body{font-family: 'Open Sans', sans-serif;}
 .primary-color{color:#FD6E0A;}
 .primary-btn{border-radius: 5px;
     background: #FD6E0A;font-weight: 700;
-    font-size: 20px;
+    font-size:0 20px;
     font-style: normal;
     color:white;
     border: none;
@@ -11,10 +11,20 @@ body{font-family: 'Open Sans', sans-serif;}
     
 /* nav related style */
 nav{display: flex;
-    align-items: center;justify-content: space-between;}
+    align-items: center;justify-content: space-between;
+     margin: 0 200px;}
 nav > ul{display: flex;align-items: center;}
 nav li a{text-decoration: none;color: var(--dark-02, #474747); }
 nav li{list-style: none;margin-right: 50px;}
 nav-title{color: #181818;
     font-size: 45px;
     font-weight: 800;}
+
+/* header related style */
+.header{background-color:  #FFF8F3;;}
+
+
+/* benner related style */
+.banner{padding: 30px 30px 30px 150px;
+        display: flex;align-items: center;}
+.banner .profile-pic{width: 500px;}
