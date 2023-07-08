@@ -85,7 +85,10 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{margin-top: 130px;}
+
+main section {
+    margin-top: 130px;
+}
 
 /* about section style */
 .about {
@@ -129,3 +132,16 @@ main section{margin-top: 130px;}
     display: flex;
     gap: 40px;
 }
+
+/* this is footer section */
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column{width: 50%;}
+
+.contact-form input[type="text"], .contact-form input[type="email"],  textarea{display:block;
+margin-bottom: 25px;padding: 18px 35px;}
+.formtxt{width: 100%;}
